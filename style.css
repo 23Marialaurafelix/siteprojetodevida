@@ -61,7 +61,9 @@ body {
 }
 
 @media screen and (min-width: 768px) {
-    .botoes{
+    .ativo {
+        background-color:var(--botão-ativo);
+        border-botton:4px solid var(--verde);
         display:flex;
     } 
     .botao:first-child{
